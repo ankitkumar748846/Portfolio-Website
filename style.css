@@ -2,6 +2,24 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* CURSOR CODE */
+body
+{
+    cursor: none;
+
+}
+.cursor{
+    width: 20px; /* Set the diameter of the circle */
+    height: 20px;
+    background-color: #FF5733; /* Set the background color of the circle */
+    border-radius: 50%; /* Create a circular shape */
+    position: absolute;
+    pointer-events: none; /* Ensure the cursor doesn't interfere with interactions */
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease-out;
 }
 #wrapper
 {
@@ -141,6 +159,7 @@ a
     border: solid 3px transparent;
     position: relative;
     z-index: 1;
+    
 }
 .btn-pink::before
 {
@@ -171,6 +190,7 @@ a
 {
     display: none;
 }
+
 .hero-section-right
 {
     position: relative;
@@ -470,7 +490,8 @@ a
 }
 .project-skill
 {
-    width: 40px;
+    
+    width: 60px;
 }
 .project-heading
 {
@@ -512,24 +533,24 @@ a
 }
 #project1
 {
-    background-image: url(./images/);
+    background-image: url(./images/car.png);
 
 }
 #project2
 {
     margin-left: 120px;
-    background-image: url(./images/);
+    background-image: url(./images/headphone.png);
     
 }
 #project3
 {
-    background-image: url(./images/);
+    background-image: url(./images/house.png);
     
 }
 #project4
 {
     margin-left: 120px;
-    background-image: url(./images/);
+    background-image: url(./images/building.png);
 }
 @media (max-width :1300px)
 {
@@ -834,6 +855,35 @@ footer
     
 
 }
+.link-wrapper
+{
+    display: flex;
+    gap: 1.2rem;
+}
+.link-wrapper div a
+{
+    color: white;
+    text-decoration: none;
+    transition: all 0.6s;
+}
+.link-wrapper div a:hover
+{
+    color: #e84949;
+
+}
+.icon-wrapper
+{
+    display: flex;
+    gap: 1rem;
+}
+
+#msg
+{
+    color: #61b752;
+    /* margin-top: -50px; */
+    display: block;
+}
+
 
 
 
