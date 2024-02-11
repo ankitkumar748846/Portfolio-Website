@@ -6,21 +6,21 @@
 }
 
 /* CURSOR CODE */
-body
+/* body
 {
     cursor: none;
 
-}
-.cursor{
-    width: 20px; /* Set the diameter of the circle */
+} */
+ /* .cursor{
+    width: 20px; 
     height: 20px;
-    background-color: #FF5733; /* Set the background color of the circle */
-    border-radius: 50%; /* Create a circular shape */
+    background-color: #FF5733; 
+    border-radius: 50%; 
     position: absolute;
-    pointer-events: none; /* Ensure the cursor doesn't interfere with interactions */
+    pointer-events: none;
     transform: translate(-50%, -50%);
     transition: transform 0.2s ease-out;
-}
+} */
 #wrapper
 {
     height: 100vh;
@@ -544,7 +544,7 @@ a
 }
 #project3
 {
-    background-image: url(./images/house.png);
+    background-image: url(./images/calculator.png);
     
 }
 #project4
